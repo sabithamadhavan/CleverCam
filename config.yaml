@@ -1,0 +1,16 @@
+crowd_detection:
+  model_path: "C:/Users/admin/Desktop/CleverCam/crowd_detection/models/yolov8n.pt"
+  threshold: 15  # Number of people to detect as crowd
+  video_path: "C:/Users/admin/Desktop/CleverCam/crowd_detection/crowd_clip.mp4"
+
+weapon_detection:
+  model_path: "C:/Users/admin/Desktop/CleverCam/weapon_detection/models/best.pt"
+  image_path: "C:/Users/admin/Desktop/CleverCam/weapon_detection/weapon_img.jpg"
+
+alert_system:
+  account_sid: "# Replace with your Twilio Account SID"           
+  auth_token: " # Replace with your Twilio Auth Token"            
+  twilio_number: "# Replace with your Twilio Sandbox Number (e.g., "+14155238886")"      
+  receiver_whatsapp_number: "Replace with the recipient's WhatsApp number (e.g., "+1234567890")"     
+
+video_source: 0  # Webcam source, use 0 for default webcam or video file path
